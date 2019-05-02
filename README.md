@@ -30,17 +30,21 @@ Project Structure
 │   ├── __init__.py    <- Makes src a Python module
 │   │
 │   ├── data           <- Scripts to download or generate data
+|   |   ├── __init__.py
 │   │   └── makedataset.py
 │   │
 │   ├── features       <- Scripts to turn raw data into features for modeling
+|   |   ├── __init__.py
 │   │   └── featureengineering.py
 │   │
 │   ├── models         <- Scripts to train models and then use trained models to make
 │   │   │                 predictions
+|   |   ├── __init__.py
 │   │   ├── predictmodel.py
 │   │   └── trainmodel.py
 │   │
 │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+|       ├── __init__.py
 │       └── visualization.py
 │
 └── 
